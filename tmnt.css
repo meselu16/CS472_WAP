@@ -1,106 +1,241 @@
+<!DOCTYPE html>
+<!-- saved from url=(0154)https://sakai.cs.miu.edu/access/content/attachment/312516d4-742e-46f3-8f07-4b0ab420eefb/Assignments/1726dd8f-9ae2-479a-b7f5-9feecb32ea07/htmlSkeleton.html -->
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>TMNT - Rancid Tomatoes</title>
 
 
-body {
-    margin: 0;
-    /* font-size: 8pt; */
-    font-family: Verdana, Tahoma, sans-serif;
-    background-image: url(./image/background.png);
-}
-.container {
-    max-width: 800px;
-    margin: auto;
-    border: 4px solid gray;
-    border-radius: 20px;
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: 550px auto;
-}
-#general {
-    background-color: #A2B964;
-     float: right; 
-    width: 250px;
-    
-}
-#overall{
-    max-width: 550px;
-    float: left; 
-}
+	<link href="tmnt.css" type="text/css" rel="stylesheet">
+</head>
 
-#footer {
-    position: fixed;
-    opacity: 0.5;
-    bottom: 0;
-    padding: 0;
-    right: 0;
-}
-#header{
-    text-align: center;
-    background-image: url(./image/bannerbg.png);
-    background-repeat: repeat-x;
-    background-size: 50px;
-}
-h1
-{
-    text-align: center;
-    font-weight: bold;
-    font-size: 24pt;
-    font-family: Tahoma,Verdana,sans-serif;
-   text-shadow: 3px 3px #999999;
-}
-.general{
-    background-color: #A2B964;
-    font-size: 8pt;
-    font-family: Arial,sans-serif;
-}
-dl{
-    font-weight: bolder;
-    line-height: 10pt;
-}
+<body>
+	<div id="header">
+		<img src="./image/banner.png" alt="Rancid Tomatoes">
+	</div>
 
-#overall .overall {
-    background-image: url(./image/rbg.png);
-    background-repeat: repeat-x;
-    width: 100%;
-}
-.overall span {
-    display: inline-block;
-    font-size: 48pt;
-    color: red;
-    font-weight: bold;
-    vertical-align: top;
-}
-.review .comment {
-    background-color: #E8DC9B;
-    border: 2px solid gray;
-    border-radius: 10px;
-    font-size: 8pt;
-    padding: 8px;
-    font-weight: bold;
-}
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-.review {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: auto auto;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+	<h1>TMNT (2007)</h1>
+	<div class="container">
+		<div id="overall">
+			<div class="overall">
+				<img src="./image/rottenbig.png" alt="Rotten">
+				<span>33%</span>
+			</div>
+			<div>
+				<div class="review">
+					<div>
+						<p class="comment">
+							<img src="./image/rotten.gif" alt="Rotten">
+							<q>Ditching the cheeky, self-aware wink that helped to excuse the concept's inherent
+								corniness,
+								the
+								movie
+								attempts to look polished and 'cool,' but the been-there animation can't compete with
+								the
+								then-cutting-edge
+								puppetry of the 1990 live-action movie.</q>
+						</p>
+						<p class="person">
+							<img src="./image/critic.gif" alt="Critic">
+							Peter Debruge <br>
+							Variety
+						</p>
+					</div>
+					<div>
+						<p class="comment">
+							<img src="./image/rotten.gif" alt="Rotten">
+							<q>The turtles themselves may look prettier, but are no smarter; torn irreparably from their
+								countercultural
+								roots, our superheroes on the half shell have been firmly co-opted by the industry their
+								creators
+								once
+								sought to spoof.</q>
+						</p>
+						<p class="person">
+							<img src="./image/critic.gif" alt="Critic">
+							Jeannette Catsoulis <br>
+							New York Times
+						</p>
+					</div>
+					<div>
+						<p class="comment">
+							<img src="./image/fresh.gif" alt="Fresh">
+							<q>TMNT is a fun, action-filled adventure that will satisfy longtime fans and generate a
+								legion
+								of
+								new
+								ones.</q>
+						</p>
+						<p class="person">
+							<img src="./image/critic.gif" alt="Critic">
+							Todd Gilchrist <br>
+							IGN Movies
+						</p>
+					</div>
+					<div>
+						<p class="comment">
+							<img src="./image/rotten.gif" alt="Rotten">
+							<q>Impersonally animated and arbitrarily plotted, the story appears to have been made up as
+								the
+								filmmakers
+								went
+								along.</q>
+						</p>
+						<p class="person">
+							<img src="./image/critic.gif" alt="Critic">
+							Ed Gonzalez <br>
+							Slant Magazine
+						</p>
+					</div>
+					<div>
+						<p class="comment">
+							<img src="./image/rotten.gif" alt="Rotten">
+							<q>It stinks!</q>
+						</p>
+						<p class="person">
+							<img src="./image/critic.gif" alt="Critic">
+							Jay Sherman (unemployed)
+						</p>
+					</div>
+					<div>
+						<p class="comment">
+							<img src="./image/fresh.gif" alt="Fresh">
+							<q>The striking use of image and motion allows each sequence to leave an impression. It's an
+								accomplished
+								restart to this franchise.</q>
+						</p>
+						<p class="person">
+							<img src="./image/critic.gif" alt="Critic">
+							Mark Palermo <br>
+							Coast (Halifax, Nova Scotia)
+						</p>
+					</div>
+					<div>
+						<p class="comment">
+							<img src="./image/rotten.gif" alt="Rotten">
+							<q>The rubber suits are gone and they've been redone with fancy computer technology, but
+								that
+								hasn't
+								stopped
+								them from becoming dull.</q>
+						</p>
+						<p class="person">
+							<img src="./image/critic.gif" alt="Critic">
+							Joshua Tyler <br>
+							CinemaBlend.com
+						</p>
+					</div>
+					<div>
+						<p class="comment">
+							<img src="./image/rotten.gif" alt="Rotten">
+							<q>The script feels like it was computer generated. This mechanical presentation lacks the
+								cheesy
+								charm
+								of
+								the
+								three live action films.</q>
+						</p>
+
+						<p class="person">
+							<img src="./image/critic.gif" alt="Critic">
+							Steve Rhodes <br>
+							Internet Reviews
+						</p>
+					</div>
+					<div>
+						<p class="comment">
+							<img src="./image/rotten.gif" alt="Rotten">
+							<q>YOUR REVIEW HERE</q>
+						</p>
+						<p class="person">
+							<img src="./image/critic.gif" alt=" Critic">
+							NAME <br>
+							PUBLICATION
+						</p>
+					</div>
 
 
 
-dl{
-    font-size: 8pt;
-    font-family: Arial,sans-serif;
-    font-weight: bold;
-    margin-left: 10px;
-    margin-right: 10px;
 
-}
+					<div>
+						<p class="comment">
+							<img src="./image/rotten.gif" alt="Rotten">
+							<q>YOUR REVIEW HERE</q>
+						</p>
+						<p>
+							<img src="./image/critic.gif" alt="Critic">
+							NAME <br>
+							PUBLICATION
+						</p>
+					</div>
+				</div>
+			</div>
+			<div id="page">
+				<p>(1-10) of 88</p>
+			</div>
+
+		</div>
+		<div id="general">
+			<div>
+				<img src="./image/overview.png" alt="general overview">
+
+			</div>
+
+			<dl>
+				<dt>STARRING</dt>
+				<dd>Patrick Stewart <br> Mako <br> Sarah Michelle Gellar <br> Kevin Smith</dd>
+
+				<dt>DIRECTOR</dt>
+				<dd>Kevin Munroe</dd>
+
+				<dt>RATING</dt>
+				<dd>PG</dd>
+
+				<dt>THEATRICAL RELEASE</dt>
+				<dd>Mar 23, 2007</dd>
+
+				<dt>MOVIE SYNOPSIS</dt>
+				<dd>After the defeat of their old arch nemesis, The Shredder, the Turtles have grown apart as a family.
+				</dd>
+
+				<dt>MPAA RATING</dt>
+				<dd>PG, for animated action violence, some scary cartoon images and mild language</dd>
+
+				<dt>RELEASE COMPANY</dt>
+				<dd>Warner Bros.</dd>
+
+				<dt>RUNTIME</dt>
+				<dd>90 mins</dd>
+
+				<dt>GENRE</dt>
+				<dd>Action/Adventure, Comedies, Childrens, Martial Arts, Superheroes, Ninjas, Animated Characters</dd>
+
+				<dt>BOX OFFICE</dt>
+				<dd>$54,132,596</dd>
+
+				<dt>LINKS</dt>
+				<dd>
+					<ul>
+						<li><a href="http://www.ninjaturtles.com/">The Official TMNT Site</a></li>
+						<li><a href="http://www.rottentomatoes.com/m/teenage_mutant_ninja_turtles/">RT Review</a></li>
+						<li><a href="http://www.rottentomatoes.com/">RT Home</a></li>
+						<li><a href="http://mumstudents.org/cs472/">CS472</a></li>
+					</ul>
+				</dd>
+			</dl>
 
 
+		</div>
+	</div>
+	<div id="footer">
+		<a href="https://validator.w3.org/check/referer"><img src="./image/w3c-html.png" alt="Valid HTML5"></a>
+		<br />
+		<a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="./image/w3c-css.png" alt="Valid CSS"></a>
+
+	</div>
+
+
+</body>
+
+</html>
