@@ -1,0 +1,41 @@
+#header{
+    text-align: lef;
+color: white;
+    background-color:deepskyblue;
+font-size: large;
+
+}
+#header .signout
+{
+    float: right;
+}
+.coniner  left
+{margin: 250px;
+    float: left;
+}
+
+.table
+{
+    
+margin: auto;
+max-width: 800px;
+font-size: large;
+}
+#left
+{float: left;
+    width: 400px;
+}
+#right
+{width: 400px;
+    float: right;
+}
+#btn
+{
+    float: right;
+}
+input{
+    width: 300px;
+}
+select{
+    width:  300px;
+}
