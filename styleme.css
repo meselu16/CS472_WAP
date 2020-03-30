@@ -27,4 +27,11 @@ a:hover
     text-decoration: underline;
 }
 
+dl{
+    display: flex;
+}
+ol { 
+    display: flex;
+    flex-direction: column-reverse;
+}
 
