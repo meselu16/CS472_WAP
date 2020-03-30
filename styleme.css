@@ -14,12 +14,17 @@ ul{
     background-color: darkseagreen;
     text-align: left;
 }
-ol:hover{
-    text-decoration: underline;
+a{
+    text-decoration: none ;
 
 }
 p::first-letter{
     font-size: 1.5em;
-    
-   
 }
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+
