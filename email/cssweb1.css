@@ -1,0 +1,17 @@
+.continer{
+  font-size: 14pt;
+  width: 40%;
+   margin: 200pt;
+   border: 2px solid blue;
+  background-color: sienna;
+
+}
+
+button{
+  font-size: 18px;
+    size: 200px;
+    box-sizing: border-box;
+    width: 20%;
+    height: 30px;
+    margin-left: 20px;
+}

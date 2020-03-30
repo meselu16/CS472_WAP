@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="cssweb1.css" rel="stylesheet" />
+    <script src="loginjs.js"></script>
+</head>
+
+<body>
+    <div class="continer">
+        <form >
+            <div>
+                <label for="email">Email address</label>
+            </div>
+            <div>
+                <input type="username" id="username" name="username" placeholder="Enter email" size="28" required>
+            </div>
+            <label id="la1">We'll never share your email with anyone else</label>
+            <div>
+                <label for="password">password</label>
+            </div>
+            <div>
+                <input type="password" id="password" placeholder="password" required size="28" 
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}">
+            </div>
+            <input type="checkbox" />
+            <label>check out me</label>
+            <div id="summit" >
+                <button type="submit" onclick="validate()">sumit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
