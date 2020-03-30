@@ -25,3 +25,20 @@ abbr:hover{
     
 }
     
+#menu
+{
+    list-style-type: none;
+}
+h5{
+    display: inline;
+}
+.comment
+{
+    background-color: rgb(230, 230, 33);
+}
+
+.footer2
+{
+    
+    text-align: right;
+}
