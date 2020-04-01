@@ -9,7 +9,7 @@
 
 button{
   font-size: 18px;
-    size: 200px;
+    resize: 200px;
     box-sizing: border-box;
     width: 20%;
     height: 30px;
