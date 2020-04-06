@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1;
+  
+}
+#h{
+    height: 350px;
+  
+}
+#picture{
+    background-image: url(image/future-technology.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    
+}
+#picture2{
+  height: 200px;
+  margin-top: 150px;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+.myname{
+    font-weight: bold;
+    left: 30px;
+}
+
+.validate{
+    
+    
+   right: 50;
+    bottom: 80px; 
+}
+img{
+   height: 40px;
+}
+.continer{
+width: 900px;
+margin: auto;
+height: 400px;
+text-align: center;
+}
+.column1{
+width: 200px;
+float: left;
+border: white solid;
+}
+.column2{
+width: 200px;
+float: left;
+border: white solid;
+}
+.column3{
+ width: 200px;
+ float: left;
+ border: white solid;
+}
+.column4{
+ width: 200px;
+ float: left;
+ border: white solid;
+}
+.labTitile{
+    height: 150px;
+    text-align: left;
+    background-color: lightsteelblue;
+    line-height: 1.5em;
+}
+.labTitile>h3{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.footer{
+   
+    width: 100%; 
+    margin: auto;
+    line-height: 0.5em; 
+    
+}
+.signature{
+width: 80%;
+float: left;
+text-shadow: lightgrey;
+background-color: lightgrey;
+
+}
+.validate{
+    background-color: lightgrey;
+    height: 125px;
+    width: 20%;
+    float: left;
+    
+}
