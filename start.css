@@ -26,13 +26,6 @@ body{
     font-weight: bold;
     left: 30px;
 }
-
-.validate{
-    
-    
-   right: 50;
-    bottom: 80px; 
-}
 img{
    height: 40px;
 }
@@ -83,7 +76,6 @@ border: white solid;
 .signature{
 width: 80%;
 float: left;
-text-shadow: lightgrey;
 background-color: lightgrey;
 
 }
