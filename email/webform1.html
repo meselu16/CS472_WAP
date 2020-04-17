@@ -4,40 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="cssweb1.css" rel="stylesheet" />
+    <title>LogIn</title>
+    <link href="login-webform.css" rel="stylesheet" />
     <script src="loginjs.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
-    <div class="continer">
-        <form >
-            <div>
-                <label>Email address</label>
+    <div id="continer">
+        <div class="leftside">
+            <img src="../image/pic.jpeg"  alt="user">
+        </div>
+        <div class="rightside">
+            <form class="content" >
+                <div class="form-group">
+                    <label for="Email">Email address</label>
+                    <input class="form-control input-lg" id="Email" type="email" placeholder="Enter email" required>
+                    <small>We'll never share your email with anyone else</small>
+                </div>
+                <div class="form-group">
+                    <label for="password">password</label>
+                    <input class="form-control input-lg" id="password" type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}" placeholder="passoword">
+                </div>
+                <div>
+                    <input type="checkbox" required class=".checkbox-info">
+                    <label>Check me out</label>
+                </div>
+                <div class="form-group">
+                    <label for="url">website</label>
+                    <input type="url" class="form-control input-lg" id="url" placeholder="https://www.mywebsite.com" pattern="https://.*" required>
+                </div>
+                <div >
+                    <button class="summit btn-lg" id="summit">Summit</button>
+                </div>
+            </form>
+            <div class="validate">
+                <a href="https://validator.w3.org/check/referer"><img src="./image/w3c-html.png" alt="validator" />
+                </a>
+                <a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="./image/120px-Valid_CSS.png"
+                        alt="validator" />
+                </a>
             </div>
-            <div>
-                <input type="email" id="username" name="username" placeholder="Enter email" size="28" required>
-            </div>
-            <label id="la1">We'll never share your email with anyone else</label>
-            <div>
-                <label for="password">password</label>
-            </div>
-            <div>
-                <input type="password" id="password" placeholder="password" required size="28" 
-                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}">
-            </div>
-            <input type="checkbox" />
-            <label>check out me</label>
-            <div id="summit" >
-                <button type="submit" onclick="validate()">sumit</button>
-            </div>
-        </form>
+        </div>
     </div>
-   <div id="footer">
-		<a href="https://validator.w3.org/check/referer"><img src="../image/w3c-html.png" alt="Valid HTML5"></a>
-		<br />
-		<a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="../image/w3c-css.png" alt="Valid CSS"></a>
-	</div>
+
 </body>
 
 </html>
