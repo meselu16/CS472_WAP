@@ -1,11 +1,16 @@
-
 function validate(){
 
-  var username = document.getElementById("username").value;
+  var Email = document.getElementById("Email").value;
     var password = document.getElementById("password").value;
-    console.log(document.getElementById("username").value);
-    console.log(document.getElementById("password").value);
+    var address=document.getElementById("url").value;
+    console.log(Email);
+    console.log(password);
+    console.log(address);
 
-    alert(username ,password);
+  
  
 }
+window.onload = function() {
+  var okButton = document.getElementById("summit"); 
+  okButton.onclick = this.validate;
+  };
